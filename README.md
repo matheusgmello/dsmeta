@@ -1,5 +1,3 @@
-Sure! Here's the README in English for the "DSmeta - Sales System" project:
-
 # DSmeta - Sales System
 
 This is a sales system project, developed in Java with Spring Boot and MySQL database. The system also uses the Twilio API for sending SMS.
