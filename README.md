@@ -1,19 +1,21 @@
-# DSmeta - Sistema de Vendas
+Sure! Here's the README in English for the "DSmeta - Sales System" project:
 
-Este é um projeto de sistema de vendas, desenvolvido em Java com Spring Boot e banco de dados MySQL. O sistema também utiliza a API do Twilio para envio de SMS.
+# DSmeta - Sales System
 
-## Funcionalidades
+This is a sales system project, developed in Java with Spring Boot and MySQL database. The system also uses the Twilio API for sending SMS.
 
-- Cadastro, consulta, atualização e exclusão de produtos.
-- Cadastro, consulta, atualização e exclusão de clientes.
-- Cadastro, consulta, atualização e exclusão de vendas.
-- Possibilidade de filtrar produtos por nome e código.
-- Possibilidade de filtrar clientes por nome, CPF e telefone.
-- Possibilidade de filtrar vendas por data de realização.
+## Features
 
-Além disso, o sistema também possui a funcionalidade de envio de SMS para clientes quando uma nova venda é realizada. Para isso, é necessário configurar a conta do Twilio no arquivo `application.properties`.
+- Registration, consultation, updating, and exclusion of products.
+- Registration, consultation, updating, and exclusion of clients.
+- Registration, consultation, updating, and exclusion of sales.
+- Possibility to filter products by name and code.
+- Possibility to filter clients by name, CPF, and telephone.
+- Possibility to filter sales by the date of realization.
 
-## Tecnologias utilizadas
+In addition, the system also has the functionality of sending SMS to clients when a new sale is made. To do this, it is necessary to configure the Twilio account in the `application.properties` file.
+
+## Technologies Used
 
 - Java 11
 - Spring Boot
@@ -25,22 +27,22 @@ Além disso, o sistema também possui a funcionalidade de envio de SMS para clie
 - TypeScript
 - React
 
-## Como executar o projeto
+## How to Run the Project
 
-1. Clonar o repositório: `git clone https://github.com/matheusgmello/dsmeta.git`
-2. Configurar o banco de dados MySQL com as informações contidas no arquivo `application.properties`
-3. Configurar a conta do Twilio no arquivo `application.properties`
-4. Executar o projeto através do IDE de sua preferência ou através do comando `mvn spring-boot:run`
-5. Acessar a aplicação através da URL `http://localhost:8080`
+1. Clone the repository: `git clone https://github.com/matheusgmello/dsmeta.git`
+2. Configure the MySQL database with the information contained in the `application.properties` file.
+3. Configure the Twilio account in the `application.properties` file.
+4. Run the project through your preferred IDE or with the command `mvn spring-boot:run`.
+5. Access the application through the URL `http://localhost:8080`.
 
-## Como usar a aplicação
+## How to Use the Application
 
-1. Acesse a aplicação através da URL `http://localhost:8080`
-2. Clique na opção desejada (Produtos, Clientes ou Vendas)
-3. Para cadastrar um novo item, clique no botão "Novo" e preencha os dados necessários.
-4. Para editar ou excluir um item existente, clique no ícone correspondente na tabela de itens.
-5. Para realizar uma nova venda, clique no botão "Nova Venda" e selecione o cliente e os produtos desejados.
-6. Ao finalizar a venda, será enviado um SMS para o cliente cadastrado com os detalhes da venda.
+1. Access the application through the URL `http://localhost:8080`.
+2. Click on the desired option (Products, Clients or Sales).
+3. To register a new item, click on the "New" button and fill in the necessary data.
+4. To edit or delete an existing item, click on the corresponding icon in the item table.
+5. To make a new sale, click on the "New Sale" button and select the desired client and products.
+6. When the sale is completed, an SMS will be sent to the registered client with the details of the sale.
 
-## Agradecimentos
-   Projeto criado em base na semana SDS do DevSuperior do professor nelio alves
+## Acknowledgments
+   Project created based on the DevSuperior SDS week of the professor Nélio Alves.
