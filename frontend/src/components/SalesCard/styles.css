@@ -51,7 +51,7 @@
   border-top: 1px solid #5f6e82;
 }
 
-.dsmeta-sales-table tbody tr:hover > td {
+.dsmeta-sales-table tbody tr:hover>td {
   background-color: #384459;
 }
 
@@ -74,24 +74,24 @@
 
 @media (min-width: 576px) {
   .show576 {
-    display: table-cell;
+      display: table-cell;
   }
 
   .dsmeta-card {
-    padding: 35px;
+      padding: 35px;
   }
 
   .dsmeta-sales-table tbody tr {
-    height: 55px;
+      height: 55px;
   }
 
   .dsmeta-sales-table tbody {
-    font-size: 18px;
+      font-size: 18px;
   }
 }
 
 @media (min-width: 992px) {
   .show992 {
-    display: table-cell;
+      display: table-cell;
   }
 }
