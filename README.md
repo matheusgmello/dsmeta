@@ -1,66 +1,62 @@
-# DSMeta
+# DSMeta📈
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/matheusgmello/dsmeta/blob/main/LICENSE) 
 
-# Sobre o projeto
+## Readme em [PT-BR](https://github.com/matheusgmello/dsmeta/blob/main/README-PT-BR.md) 📜
 
-DSMeta é uma aplicação full stack web construída durante a 12ª edição da **Semana DevSuperior** (#sds12), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+# About the project
 
-A aplicação consiste em uma listagem de vendas, onde é possível consultar e pesquisar dentro de uma tabela com dados de vendendores para analisar suas metas alcançadas e também enviar um SMS com dados do vendendor,
-anunciando que ele foi o destaque em vendas, dentro de um determinado período filtrado por datas.
+DSMeta is a full-stack web application built during the 12th edition of SDS, an event organized by [DevSuperior](https://devsuperior.com.br/sds-inscricao-org).
 
-## Layout web
+The application consists of a sales listing, where it is possible to query and search within a table with salesperson data to analyze their achieved goals. It also allows for sending an SMS with the salesperson's information, announcing that they were the sales highlight within a specific date-filtered period.
+
+## Web Layout
 ![Web 1](https://github.com/matheusgmello/dsmeta/blob/52c65e36e38d6cef3bcff8a7bf54be6c62b88366/assets/DSMeta.png)
 
-## SMS
+## SMS Response
 ![SMS RESPOSTA](https://github.com/matheusgmello/dsmeta/blob/52c65e36e38d6cef3bcff8a7bf54be6c62b88366/assets/SMS.jpeg)
 
-# Tecnologias utilizadas
+# Technologies
 
 ## Back end
 - Java
 - Spring Boot
-- JPA / Hibernate
-- Maven
+- Twilio sms
 
 ## Front end
-- HTML / CSS 
-- JavaScript
 - TypeScript
-- ReactJS
-- Toast
-- Axios
+- React
+  
+# How to run the project
 
-# Como executar o projeto
-
-## Back end
-Pré-requisitos: Java 17
+## Back end (Api)
+Prerequisites: Java 17
 ```bash
-# clonar repositório
+# To clone the repository
 git clone https://github.com/matheusgmello/dsmeta
 
-# entrar na pasta do projeto back end
+# To enter the backend folder
 cd backend
 
-# executar o projeto
+# run the project
 ./mvnw spring-boot:run
 ```
 
-## Front end web
-Pré-requisitos: npm / yarn
+## Front end (Web)
+Prerequisites: Node and Yarn
 
 ```bash
-# clonar repositório
+# To clone the repository
 git clone https://github.com/matheusgmello/dsmeta
 
-# entrar na pasta do projeto front end web
+# To enter the Front end folder
 cd frontend
 
-# instalar dependências
+# To install dependencies
 yarn install
 
-# executar o projeto
+# run the project
 yarn dev
 ```
 
-# Autor
-Matheus Gabriel Fleck de Mello
+# Author
+[Matheus Gabriel Fleck de Mello](https://www.linkedin.com/in/matheus-gabriel-fleck-de-mello/)
