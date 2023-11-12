@@ -7,7 +7,7 @@
 
 # About the project
 
-DSMeta is a full-stack web application built during the 12th edition of SDS, an event organized by [DevSuperior](https://devsuperior.com.br/sds-inscricao-org).
+DSMeta is a full-stack web application
 
 The application consists of a sales listing, where it is possible to query and search within a table with salesperson data to analyze their achieved goals. It also allows for sending an SMS with the salesperson's information, announcing that they were the sales highlight within a specific date-filtered period.
 
