@@ -1,7 +1,9 @@
-# DSMeta📈
+<h1 align="center" style="font-size:36px;">DSMeta 📈</h1>
+
+
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/matheusgmello/dsmeta/blob/main/LICENSE) 
 
-## Readme em [PT-BR](https://github.com/matheusgmello/dsmeta/blob/main/README-PT-BR.md) 📜
+# Readme em [PT-BR](https://github.com/matheusgmello/dsmeta/blob/main/README-PT-BR.md) 📜
 
 # About the project
 
@@ -18,13 +20,15 @@ The application consists of a sales listing, where it is possible to query and s
 # Technologies
 
 ## Back end
-- Java
-- Spring Boot
-- Twilio sms
+- [Spring Security](https://spring.io/projects/spring-security)
+- [Spring Data](https://spring.io/projects/spring-data)
+- [Twilio API](https://www.twilio.com/pt-br/docs/usage/api)
 
 ## Front end
-- TypeScript
-- React
+- [React](https://react.dev/learn)
+- [Typescript](https://www.typescriptlang.org/)
+- [Axios](https://axios-http.com/)
+- [Toastify](https://www.npmjs.com/package/react-toastify)
   
 # How to run the project
 
