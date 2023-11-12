@@ -1,9 +1,10 @@
-# DSMeta📈
+<h1 align="center" style="font-size:36px;">DSMeta 📈</h1>
+
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/matheusgmello/dsmeta/blob/main/LICENSE) 
 
 # Sobre o projeto
 
-DSMeta é uma aplicação full stack web construída durante a 12ª edição da SDS evento organizado pela [DevSuperior](https://devsuperior.com.br/sds-inscricao-org).
+DSMeta é uma aplicação full stack web
 
 A aplicação consiste em uma listagem de vendas, onde é possível consultar e pesquisar dentro de uma tabela com dados de vendedores para analisar suas metas alcançadas e também enviar um SMS com dados do vendedor, anunciando que ele foi o destaque em vendas, dentro de um determinado período filtrado por datas.
 
@@ -16,13 +17,15 @@ A aplicação consiste em uma listagem de vendas, onde é possível consultar e 
 # Tecnologias utilizadas
 
 ## Back end
-- Java
-- Spring Boot
-- Twilio SMS
+- [Spring Security](https://spring.io/projects/spring-security)
+- [Spring Data](https://spring.io/projects/spring-data)
+- [Twilio API](https://www.twilio.com/pt-br/docs/usage/api)
 
 ## Front end
-- TypeScript
-- React
+- [React](https://react.dev/learn)
+- [Typescript](https://www.typescriptlang.org/)
+- [Axios](https://axios-http.com/)
+- [Toastify](https://www.npmjs.com/package/react-toastify)
   
 # Como executar o projeto
 
