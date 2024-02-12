@@ -1,66 +1,43 @@
-<h1 align="center" style="font-size:36px;">DSMeta 📈</h1>
+![Cover](./.github/cover.png)
 
+# Dsmeta
 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/matheusgmello/dsmeta/blob/main/LICENSE) 
+Sistema de Registro de Vendas que permite consulta e pesquisa em uma tabela de dados de vendedores, além de enviar um SMS ao vendedor destaque do mês usando o Twilio SMS.
 
-# Readme em [PT-BR](https://github.com/matheusgmello/dsmeta/blob/main/README-PT-BR.md) 📜
+# Configurações 
 
-# About the project
+### (API)
+- Clone o repositório
+- Entre na pasta (`cd backend`)
+- Configure o arquivo `aplication.properties` colocando a chaves do(`twilio SMS`)
+- Rode a aplicação (`./mvnw spring-boot:run`)
 
-DSMeta is a full-stack web application
+### (Web)
+  - Entre na pasta (`cd frontend`)
+  - Instalar dependências (`yarn install`)
+  - Rode a aplicação (`yarn run dev`)
 
-The application consists of a sales listing, where it is possible to query and search within a table with salesperson data to analyze their achieved goals. It also allows for sending an SMS with the salesperson's information, announcing that they were the sales highlight within a specific date-filtered period.
+# Resposta da API
+<img src=".github/sms.jpeg" alt="SMS" width="200" height="300">
 
-## Web Layout
-![Web 1](https://github.com/matheusgmello/dsmeta/blob/52c65e36e38d6cef3bcff8a7bf54be6c62b88366/assets/DSMeta.png)
+# Tecnologias 
 
-## SMS Response
-![SMS RESPOSTA](https://github.com/matheusgmello/dsmeta/blob/52c65e36e38d6cef3bcff8a7bf54be6c62b88366/assets/SMS.jpeg)
-
-# Technologies
-
-## Back end
-- [Spring Security](https://spring.io/projects/spring-security)
-- [Spring Data](https://spring.io/projects/spring-data)
-- [Twilio API](https://www.twilio.com/pt-br/docs/usage/api)
-
-## Front end
-- [React](https://react.dev/learn)
-- [Typescript](https://www.typescriptlang.org/)
+- [Java 17](https://docs.oracle.com/en/java/javase/17/)
+- [Spring](https://spring.io/)
+- [Twilio API](https://www.twilio.com/docs/usage/api)
+- [React](https://react.dev/)
 - [Axios](https://axios-http.com/)
-- [Toastify](https://www.npmjs.com/package/react-toastify)
-  
-# How to run the project
 
-## Back end (Api)
-Prerequisites: Java 17
-```bash
-# To clone the repository
-git clone https://github.com/matheusgmello/dsmeta
 
-# To enter the backend folder
-cd backend
 
-# run the project
-./mvnw spring-boot:run
-```
+<!--START_SECTION:footer-->
+<br />
 
-## Front end (Web)
-Prerequisites: Node and Yarn
+## 🔗 Connect with me
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/matheusgmello)
+[![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white)](https://www.reddit.com/user/math7zw)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/matheusgmello/)
 
-```bash
-# To clone the repository
-git clone https://github.com/matheusgmello/dsmeta
 
-# To enter the Front end folder
-cd frontend
+<!--END_SECTION:footer-->
 
-# To install dependencies
-yarn install
-
-# run the project
-yarn dev
-```
-
-# Author
-[Matheus Gabriel Fleck de Mello](https://www.linkedin.com/in/matheus-gabriel-fleck-de-mello/)
